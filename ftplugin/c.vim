@@ -1,3 +1,12 @@
+"
+" vimfiles : https://github.com/w34/vimfiles
+"
+" C filetype
+"
+" Authors:
+"   David Keller <dk1933@my.bristol.ac.uk>
+"
+
 " Turn folding on by default
 setlocal foldmethod=indent
 

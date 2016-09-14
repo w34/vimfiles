@@ -1,15 +1,20 @@
 "
-" dotvim : https://github.com/dotphiles/dotvim
+" vimfiles : https://github.com/w34/vimfiles
 "
-" bash filetype
+" sh filetype
+"
+" Based on https://github.com/dotphiles/dotvim
 "
 " Authors:
+"   David Keller <dk1933@my.bristol.ac.uk>
 "   Ben O'Hara <bohara@gmail.com>
-" 
+"
 
-set sw=4
-set ts=4
-set et
+" Use spaces and indentation of 4
+setlocal expandtab
+setlocal tabstop=4
+setlocal softtabstop=4
+setlocal shiftwidth=4
 
-" dakeller
-"set textwidth=78
+" Maximum text width before wrapping
+"setlocal textwidth=78
